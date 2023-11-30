@@ -1,0 +1,25 @@
+
+@media (max-width: 479px) {
+   
+}
+
+@media (min-width: 480px) and (max-width: 1023px) {
+    .parametre{
+        width : 66%;
+    }
+    .galerie{
+        width : 33%;
+    }
+    .parent{
+        display : flex;
+        flex-direction : row;
+        flex-wrap : wrap;
+    }
+}
+
+@media (min-width: 1024px) {
+    .parent{
+        display: flex;
+        flex-direction : row;
+    }
+}
